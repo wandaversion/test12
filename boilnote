@@ -1,6 +1,6 @@
 var adminCookie = document.cookie;
-http://ghost-note.hammer.b01le.rs
-fetch('/note/new', {
+
+fetch('http://ghost-note.hammer.b01le.rs', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json'
